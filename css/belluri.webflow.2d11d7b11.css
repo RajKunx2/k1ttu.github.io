@@ -4,7 +4,7 @@
    ========================================================================== */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
@@ -124,7 +124,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 1em
 }
 
@@ -280,7 +280,7 @@ body {
   margin: 0;
   min-height: 100%;
   background-color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333
@@ -1095,7 +1095,7 @@ textarea.w-select {
   line-height: 12px;
   text-align: center;
   color: #999;
-  font-family: serif
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
 }
 
 .w-widget-twitter-count-shim .w-widget-twitter-count-clear {
@@ -1491,7 +1491,7 @@ textarea.w-select {
 .w-lightbox-backdrop {
   color: #000;
   cursor: auto;
-  font-family: serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: medium;
   font-style: normal;
   font-variant: normal;
@@ -1514,7 +1514,7 @@ textarea.w-select {
   bottom: 0;
   left: 0;
   color: #fff;
-  font-family: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 17px;
   line-height: 1.2;
   font-weight: 300;
@@ -4755,7 +4755,7 @@ textarea.w-select {
 }
 
 body {
-  font-family: Karla, sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #393939;
   font-size: 16px;
   line-height: 28px;
@@ -4765,7 +4765,7 @@ body {
 h1 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 38px;
   line-height: 44px;
   font-weight: 400;
@@ -4774,7 +4774,7 @@ h1 {
 h2 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 32px;
   line-height: 36px;
   font-weight: 400;
@@ -4783,7 +4783,7 @@ h2 {
 h3 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: 400;
@@ -4792,7 +4792,7 @@ h3 {
 h4 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -4800,7 +4800,7 @@ h4 {
 
 p {
   margin-bottom: 0px;
-  font-family: Karla, sans-serif;
+ font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
@@ -4919,7 +4919,7 @@ blockquote {
 }
 
 .nav-dropdown {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
 }
 
 .nav-button-wrapper {
@@ -4949,6 +4949,11 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background: #ffffffa3;
+  
+  border-radius: 6px 66px 70px 6px;
+  border-right: 13px solid #333333;
+  box-shadow: 0px 0px 6px 1px #eee;
 }
 
 .nav-menu {
@@ -5023,7 +5028,7 @@ blockquote {
 .nav-dropdown-toggle {
   margin-left: 40px;
   padding: 5px 30px 5px 0px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.25px;
@@ -5052,15 +5057,17 @@ blockquote {
 }
 
 .nav-link {
-  margin-left: 40px;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #393939;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.25px;
   text-decoration: none;
+}
+.maps {
+  padding-bottom: 68;
 }
 
 .nav-link:hover {
@@ -5129,7 +5136,7 @@ blockquote {
   width: 220px;
   border-radius: 10px;
   background-color: #f3f3f3;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -5203,7 +5210,7 @@ blockquote {
   transition: -webkit-transform 300ms ease;
   transition: transform 300ms ease;
   transition: transform 300ms ease, -webkit-transform 300ms ease;
-  font-family: Karla, sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 20px;
@@ -5256,7 +5263,7 @@ blockquote {
 .hero-heading {
   margin-top: 20px;
   margin-bottom: 40px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 48px;
   line-height: 70px;
   font-weight: 400;
@@ -5269,8 +5276,8 @@ blockquote {
 }
 
 .hero-intro {
-  font-family: 'Love Light', sans-serif;
-  color: #41844d;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  color: #f9f9f9;
   font-size: 32px;
   line-height: 32px;
   letter-spacing: 5px;
@@ -5309,15 +5316,21 @@ blockquote {
 
 .question {
   font-weight: 400;
+  padding: 15px;
+    color: #fff;
+    background: #222;
 }
 
 .number {
   margin-left: 5px;
   -webkit-transition: color 300ms ease;
   transition: color 300ms ease;
-  color: #41844d;
+  color: #000;
   font-weight: 500;
   text-decoration: none;
+  background: #ffb817d6;
+  text-decoration: none;
+  padding: 14px;
 }
 
 .number:hover {
@@ -5365,7 +5378,7 @@ blockquote {
 
 .text-link {
   margin-bottom: 10px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #1e1e1e;
   font-size: 18px;
   line-height: 35px;
@@ -5381,7 +5394,7 @@ blockquote {
 }
 
 .style-guide-heading.libre-baskerville {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-weight: 700;
 }
 
@@ -5545,7 +5558,7 @@ blockquote {
 .regular-heading {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   line-height: 1em;
   font-weight: 400;
   text-align: center;
@@ -5694,14 +5707,14 @@ blockquote {
 .regular {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   line-height: 1em;
   font-weight: 400;
   text-align: center;
 }
 
 .regular.libre-baskerville {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-weight: 400;
 }
 
@@ -6070,7 +6083,7 @@ blockquote {
 .therapy-page-link {
   display: inline-block;
   margin-top: 20px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #393939;
 }
 
@@ -6546,7 +6559,7 @@ blockquote {
 .client-testimonial-slider {
   position: relative;
   overflow: hidden;
-  height: auto;
+  height: 230px;
   max-width: 419px;
   background-color: transparent;
 }
@@ -7004,7 +7017,7 @@ blockquote {
 
 .footer-title {
   margin-bottom: 35px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #393939;
   font-size: 24px;
   line-height: 24px;
@@ -7069,7 +7082,7 @@ blockquote {
 }
 
 .open-day-name {
-  font-family: Karla, sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #41844d;
   line-height: 24px;
   font-weight: 500;
@@ -7206,7 +7219,7 @@ blockquote {
 }
 
 .subscribe-title {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 20px;
   line-height: 24px;
 }
@@ -7233,7 +7246,7 @@ blockquote {
 }
 
 .company-link {
-  font-family: Karla, sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #41844d;
   font-weight: 700;
 }
@@ -7254,7 +7267,7 @@ blockquote {
 }
 
 .follow-text {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   line-height: 24px;
 }
 
@@ -7336,7 +7349,7 @@ blockquote {
 }
 
 .breadcrumb-sub-title {
-  font-family: 'Love Light', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #41844d;
   font-size: 36px;
   line-height: 36px;
@@ -7582,7 +7595,7 @@ blockquote {
   align-items: center;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 20px;
   line-height: 24px;
 }
@@ -7671,7 +7684,7 @@ blockquote {
 
 .serial-number {
   margin-bottom: 15px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #41844d;
   font-size: 18px;
   line-height: 18px;
@@ -7792,7 +7805,7 @@ blockquote {
 }
 
 .navigation-item {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 18px;
   line-height: 18px;
 }
@@ -7971,7 +7984,7 @@ blockquote {
 }
 
 .tag-text-block {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #41844d;
   font-size: 16px;
   line-height: 16px;
@@ -8475,7 +8488,7 @@ blockquote {
 
 .item-name {
   margin-bottom: 10px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
@@ -9012,7 +9025,7 @@ blockquote {
 .contact-heading {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 18px;
 }
 
@@ -9069,7 +9082,7 @@ blockquote {
 .agent-name.agent-details-page {
   margin-top: 20px;
   margin-bottom: 15px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 400;
@@ -9130,7 +9143,7 @@ blockquote {
 
 .property-amenities-title {
   margin-bottom: 20px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   color: #012a38;
   font-size: 32px;
   line-height: 48px;
@@ -9555,7 +9568,7 @@ blockquote {
 }
 
 .accordion-text {
-  font-family: Karla, sans-serif;
+  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -9633,7 +9646,7 @@ blockquote {
   }
 
   .nav-dropdown {
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
   }
 
   .nav-button-wrapper {
@@ -9652,10 +9665,14 @@ blockquote {
   }
 
   .nav-link {
-    margin-left: 70px;
-    font-size: 18px;
+    font-size: 1.3rem; padding: 10px 14px;
   }
 
+  .left-pennel{
+  padding: 30px; width: 30%;}
+  .map{
+  float: right;
+padding: 30px;}
   .container {
     max-width: 1200px;
   }
@@ -9664,6 +9681,7 @@ blockquote {
     max-width: 1302px;
   }
 
+  .navbar-wrapper a img{width: 60%;}
   .container.about-pase-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -9816,7 +9834,7 @@ blockquote {
   }
 
   .feature-content-block {
-    max-width: 561px;
+    max-width: 100%;
   }
 
   .feature-image-block {
@@ -10478,6 +10496,10 @@ blockquote {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    color: #fff;
+    background: #48443a2e;
+    padding: 20px;
+}
   }
 
   .hero-wrapper {
