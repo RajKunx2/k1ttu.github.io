@@ -3,8 +3,11 @@
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+
 html {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
@@ -124,7 +127,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 1em
 }
 
@@ -280,7 +283,7 @@ body {
   margin: 0;
   min-height: 100%;
   background-color: #fff;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333
@@ -342,6 +345,7 @@ input.w-button {
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important
 }
+
 h1,
 h2,
 h3,
@@ -1095,7 +1099,7 @@ textarea.w-select {
   line-height: 12px;
   text-align: center;
   color: #999;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
 }
 
 .w-widget-twitter-count-shim .w-widget-twitter-count-clear {
@@ -1491,7 +1495,7 @@ textarea.w-select {
 .w-lightbox-backdrop {
   color: #000;
   cursor: auto;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: medium;
   font-style: normal;
   font-variant: normal;
@@ -1514,7 +1518,7 @@ textarea.w-select {
   bottom: 0;
   left: 0;
   color: #fff;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 17px;
   line-height: 1.2;
   font-weight: 300;
@@ -4755,7 +4759,7 @@ textarea.w-select {
 }
 
 body {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #393939;
   font-size: 16px;
   line-height: 28px;
@@ -4765,7 +4769,7 @@ body {
 h1 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 38px;
   line-height: 44px;
   font-weight: 400;
@@ -4774,7 +4778,7 @@ h1 {
 h2 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 32px;
   line-height: 36px;
   font-weight: 400;
@@ -4783,7 +4787,7 @@ h2 {
 h3 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: 400;
@@ -4792,7 +4796,7 @@ h3 {
 h4 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -4800,7 +4804,7 @@ h4 {
 
 p {
   margin-bottom: 0px;
- font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
@@ -4919,7 +4923,7 @@ blockquote {
 }
 
 .nav-dropdown {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
 }
 
 .nav-button-wrapper {
@@ -4950,7 +4954,7 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   background: #ffffffa3;
-  
+
   border-radius: 6px 66px 70px 6px;
   border-right: 13px solid #333333;
   box-shadow: 0px 0px 6px 1px #eee;
@@ -5028,7 +5032,7 @@ blockquote {
 .nav-dropdown-toggle {
   margin-left: 40px;
   padding: 5px 30px 5px 0px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.25px;
@@ -5059,13 +5063,14 @@ blockquote {
 .nav-link {
   padding-top: 5px;
   padding-bottom: 5px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #393939;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.25px;
   text-decoration: none;
 }
+
 .maps {
   padding-bottom: 68;
 }
@@ -5136,7 +5141,7 @@ blockquote {
   width: 220px;
   border-radius: 10px;
   background-color: #f3f3f3;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -5186,7 +5191,7 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   background-color: #f1f1f1;
-  background-image: url("../imgs/bg.JPG");
+  background-image: url(".././imgs//DSC03587.JPG");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5210,7 +5215,7 @@ blockquote {
   transition: -webkit-transform 300ms ease;
   transition: transform 300ms ease;
   transition: transform 300ms ease, -webkit-transform 300ms ease;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 20px;
@@ -5263,7 +5268,7 @@ blockquote {
 .hero-heading {
   margin-top: 20px;
   margin-bottom: 40px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 48px;
   line-height: 70px;
   font-weight: 400;
@@ -5276,7 +5281,7 @@ blockquote {
 }
 
 .hero-intro {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #f9f9f9;
   font-size: 32px;
   line-height: 32px;
@@ -5317,8 +5322,8 @@ blockquote {
 .question {
   font-weight: 400;
   padding: 15px;
-    color: #fff;
-    background: #222;
+  color: #fff;
+  background: #222;
 }
 
 .number {
@@ -5378,7 +5383,7 @@ blockquote {
 
 .text-link {
   margin-bottom: 10px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #1e1e1e;
   font-size: 18px;
   line-height: 35px;
@@ -5394,7 +5399,7 @@ blockquote {
 }
 
 .style-guide-heading.libre-baskerville {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-weight: 700;
 }
 
@@ -5558,7 +5563,7 @@ blockquote {
 .regular-heading {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   line-height: 1em;
   font-weight: 400;
   text-align: center;
@@ -5707,14 +5712,14 @@ blockquote {
 .regular {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   line-height: 1em;
   font-weight: 400;
   text-align: center;
 }
 
 .regular.libre-baskerville {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -6083,7 +6088,7 @@ blockquote {
 .therapy-page-link {
   display: inline-block;
   margin-top: 20px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #393939;
 }
 
@@ -7017,7 +7022,7 @@ blockquote {
 
 .footer-title {
   margin-bottom: 35px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #393939;
   font-size: 24px;
   line-height: 24px;
@@ -7082,7 +7087,7 @@ blockquote {
 }
 
 .open-day-name {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #41844d;
   line-height: 24px;
   font-weight: 500;
@@ -7219,7 +7224,7 @@ blockquote {
 }
 
 .subscribe-title {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 20px;
   line-height: 24px;
 }
@@ -7246,7 +7251,7 @@ blockquote {
 }
 
 .company-link {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #41844d;
   font-weight: 700;
 }
@@ -7267,7 +7272,7 @@ blockquote {
 }
 
 .follow-text {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   line-height: 24px;
 }
 
@@ -7349,7 +7354,7 @@ blockquote {
 }
 
 .breadcrumb-sub-title {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #41844d;
   font-size: 36px;
   line-height: 36px;
@@ -7595,7 +7600,7 @@ blockquote {
   align-items: center;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 20px;
   line-height: 24px;
 }
@@ -7684,7 +7689,7 @@ blockquote {
 
 .serial-number {
   margin-bottom: 15px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #41844d;
   font-size: 18px;
   line-height: 18px;
@@ -7805,7 +7810,7 @@ blockquote {
 }
 
 .navigation-item {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 18px;
   line-height: 18px;
 }
@@ -7984,7 +7989,7 @@ blockquote {
 }
 
 .tag-text-block {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #41844d;
   font-size: 16px;
   line-height: 16px;
@@ -8488,7 +8493,7 @@ blockquote {
 
 .item-name {
   margin-bottom: 10px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
@@ -9025,7 +9030,7 @@ blockquote {
 .contact-heading {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 18px;
 }
 
@@ -9082,7 +9087,7 @@ blockquote {
 .agent-name.agent-details-page {
   margin-top: 20px;
   margin-bottom: 15px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 400;
@@ -9143,7 +9148,7 @@ blockquote {
 
 .property-amenities-title {
   margin-bottom: 20px;
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   color: #012a38;
   font-size: 32px;
   line-height: 48px;
@@ -9568,7 +9573,7 @@ blockquote {
 }
 
 .accordion-text {
-  font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -9646,7 +9651,7 @@ blockquote {
   }
 
   .nav-dropdown {
-    font-family: 'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+    font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   }
 
   .nav-button-wrapper {
@@ -9665,14 +9670,20 @@ blockquote {
   }
 
   .nav-link {
-    font-size: 1.3rem; padding: 10px 14px;
+    font-size: 1.3rem;
+    padding: 10px 14px;
   }
 
-  .left-pennel{
-  padding: 30px; width: 30%;}
-  .map{
-  float: right;
-padding: 30px;}
+  .left-pennel {
+    padding: 30px;
+    width: 30%;
+  }
+
+  .map {
+    float: right;
+    padding: 30px;
+  }
+
   .container {
     max-width: 1200px;
   }
@@ -9681,7 +9692,10 @@ padding: 30px;}
     max-width: 1302px;
   }
 
-  .navbar-wrapper a img{width: 60%;}
+  .navbar-wrapper a img {
+    width: 60%;
+  }
+
   .container.about-pase-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -10499,93 +10513,93 @@ padding: 30px;}
     color: #fff;
     background: #48443a2e;
     padding: 20px;
+  }
 }
-  }
 
-  .hero-wrapper {
-    min-height: 850px;
-    padding-top: 250px;
-    padding-bottom: 180px;
-  }
+.hero-wrapper {
+  min-height: 850px;
+  padding-top: 250px;
+  padding-bottom: 180px;
+}
 
-  .slider-design-shape {
-    bottom: -135px;
-  }
+.slider-design-shape {
+  bottom: -135px;
+}
 
-  .about-design-image-four {
-    left: 40px;
-  }
+.about-design-image-four {
+  left: 40px;
+}
 
-  .feature-section-design-shape.up-down-loop-animaion {
-    right: 50px;
-  }
+.feature-section-design-shape.up-down-loop-animaion {
+  right: 50px;
+}
 
-  .testimonial-design-shape {
-    right: 20px;
-  }
+.testimonial-design-shape {
+  right: 20px;
+}
 
-  .testimonial-design-shape.up-down-loop-animaion {
-    bottom: 100px;
-  }
+.testimonial-design-shape.up-down-loop-animaion {
+  bottom: 100px;
+}
 
-  .testimonial-design-shape.spa-details-page {
-    right: -200px;
-  }
+.testimonial-design-shape.spa-details-page {
+  right: -200px;
+}
 
-  .popular-post-title.blog-page {
-    font-size: 24px;
-    line-height: 34px;
-  }
+.popular-post-title.blog-page {
+  font-size: 24px;
+  line-height: 34px;
+}
 
-  .footer-content-block {
-    width: 70%;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
+.footer-content-block {
+  width: 70%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
 
-  .footer-logo-block {
-    width: 30%;
-  }
+.footer-logo-block {
+  width: 30%;
+}
 
-  .breadcrumb-section {
-    min-height: 600px;
-    padding-top: 250px;
-    padding-bottom: 200px;
-  }
+.breadcrumb-section {
+  min-height: 600px;
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
 
-  .spa-service-about-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    max-width: 1346px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    grid-column-gap: 156px;
-    grid-row-gap: 156px;
-  }
+.spa-service-about-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1346px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column-gap: 156px;
+  grid-row-gap: 156px;
+}
 
-  .spa-service-about-left-image {
-    max-width: 689px;
-  }
+.spa-service-about-left-image {
+  max-width: 689px;
+}
 
-  .spa-service-about-right-content {
-    max-width: 501px;
-  }
+.spa-service-about-right-content {
+  max-width: 501px;
+}
 
-  .spa-service-about-design-image {
-    top: 100px;
-    right: -53px;
-  }
+.spa-service-about-design-image {
+  top: 100px;
+  right: -53px;
+}
 
-  .spa-service-about-design-image-two {
-    right: -11px;
-    bottom: 5px;
-  }
+.spa-service-about-design-image-two {
+  right: -11px;
+  bottom: 5px;
+}
 }
 
 @media screen and (min-width: 1920px) {
@@ -13646,3 +13660,10 @@ padding: 30px;}
     grid-row-end: span 1;
   }
 }
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&display=swap');

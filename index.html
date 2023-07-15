@@ -66,6 +66,18 @@
         hideDecimalForWholeNumbers: false,
       };
     </script>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
   </head>
 
   <body data-w-id="62eb83fe467fa50070f5d86d">
@@ -559,20 +571,21 @@ data-wf-page-link-href-prefix
             <div
               data-w-id="0e88d268-56c0-451f-0fa9-b97b31640612"
              
-              class="hero-intro"
+              class="hero-intro mt-6"
             >
               Spa Treatment
             </div>
             <h1
               data-w-id="ad6eba7f-afa6-2062-7fce-2b775a15c98b"
               style="opacity: 0"
-              class="hero-heading"
+              class="hero-heading text-slate-100"
             >
               Stress Relieving Experience
             </h1>
             <div data-w-id="ad6eba7f-afa6-2062-7fce-2b775a15c985" style="opacity:0" class="contact-block">
               <div class="hero-qusetion-block">
-                <div class="question">Call now - </div><a href="tel:0918490034" class="number">0123 456 789</a>
+                <div class="question rounded-lg mr-4 bg-yellow-600">Call now : 0123 456 789 </div></a>
+
               </div>
            
           </div>
@@ -604,7 +617,7 @@ data-wf-page-link-href-prefix
           <div class="about-content">
             <div class="section-title">
               <div class="title-top-block">
-                <h4 class="section-category-title">Welcome to Easy day massage and spa center</h4>
+                <h4 class="section-category-title font-serif">Welcome to Easy day massage and spa center</h4>
                 <img
                   src="fonts/62ef4b810e99ef5b7afbcfbb_Title%20Design%20Image.svg"
                   loading="lazy"
@@ -630,27 +643,27 @@ data-wf-page-link-href-prefix
             </div>
             <a href="./pages/pricing.html" class="button-primary w-button">Learn More</a
             >
-            <img
+            <!-- <img
               src="fonts/62ef5154664d650dad56873a_about-design-1.svg"
               loading="lazy"
               alt="about-design-1"
               class="about-design-one mouse-move-animation"
-            />
+            /> -->
           </div>
         </div>
       </div>
-      <img
+      <!-- <img
         src="fonts/62ef567a629f183ba957480a_about-design-4.svg"
         loading="lazy"
         alt="About Design Image"
         class="about-design-image-four up-down-loop-animaion"
-      />
+      /> -->
     </section>
     <section class="therapy-section wf-section">
       <div class="container w-container">
-        <div class="therapy-collection w-dyn-list">
-          <div role="list" class="therapy-list w-dyn-items">
-            <div role="listitem" class="therapy-item w-dyn-item">
+        <div class="therapy-collection w-dyn-list flex flex-col">
+          <div role="list" class="therapy-list w-dyn-items flex flex-col md:flex-row">
+            <div role="listitem" class="therapy-item w-dyn-item flex flex-row">
               <div
                 data-w-id="dc439346-c102-535b-7b1d-b6062c3a778b"
                 style="opacity: 0"
@@ -765,7 +778,6 @@ data-wf-page-link-href-prefix
                     <p class="therapy-summary">
                       Oil therapy is a therapeutic practice that involves the application of specific oils onto the body. It aims to promote relaxation, relieve muscle tension, nourish the skin, and provide overall rejuvenation and well-being.
                     </p>
-                    
                   </div>
                 </div>
               </div>
@@ -779,7 +791,7 @@ data-wf-page-link-href-prefix
             <div class="feature-content-block">
               <div class="section-title">
                 <div class="title-top-block">
-                  <h4 class="section-category-title">Why Choose Us</h4>
+                  <h4 class="section-category-title font-serif">Why Choose Us</h4>
                   <img
                     src="fonts/62ef4b810e99ef5b7afbcfbb_Title%20Design%20Image.svg"
                     loading="lazy"
@@ -841,27 +853,26 @@ data-wf-page-link-href-prefix
                   alt="Feature Image"
                   class="feature-image"
                 />
-                />
               </div>
             </div>
           </div>
         </div>
-        <img
+        <!-- <img
           src="fonts/62f0d182b7ece0469ab08a76_feature-section-design-shape.svg"
           loading="lazy"
           alt="Feature Section Design Shape"
           class="feature-section-design-shape up-down-loop-animaion"
-        />
+        /> -->
       </section>
       <section class="spa-service-section wf-section">
         <div class="container spa-service-container home-page w-container">
-          <div class="spa-wrapper">
+          <div class="spa-wrapper flex align-middle justify-center">
             <div class="spa-inner">
               <div class="section-title">
                 <div class="spa-section-title-block">
                   <div class="spa-heading-block">
                     <div class="title-top-block">
-                      <h4 class="section-category-title">What we provide</h4>
+                      <h4 class="section-category-title font-serif">What we provide</h4>
                       <img
                         src="fonts/62ef4b810e99ef5b7afbcfbb_Title%20Design%20Image.svg"
                         loading="lazy"
@@ -919,8 +930,12 @@ data-wf-page-link-href-prefix
                             href="/spa/hot-stone-spa"
                             class="spa-title-link-block w-inline-block"
                           >
-                            <h3 class="spa-title">Back,Neck Massage</h3>
+                            <h3 class="spa-title">Back and Neck Massage</h3>
                           </a>
+                          <div class="spa-price-block">
+                            <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
+                            
+                          </div>
                         </div>
                       </div>
                     </div> 
@@ -932,7 +947,7 @@ data-wf-page-link-href-prefix
                       >
                         <div class="spa-thumbnail">
                           <img
-                            src="images/62f0e256295fa10e03d5bf6c_face-scrab.png"
+                            src="imgs/foot.png"
                             loading="lazy"
                             alt="Face Scrub"
                             class="spa-thumbnail-image"
@@ -943,11 +958,10 @@ data-wf-page-link-href-prefix
                             href="/spa/face-scrub"
                             class="spa-title-link-block w-inline-block"
                           >
-                            <h3 class="spa-title">Oil massage</h3>
+                            <h3 class="spa-title">Foot Massage</h3>
                           </a>
                           <div class="spa-price-block">
                             <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
-                            
                           </div>
                         </div>
                       </div>
@@ -960,7 +974,7 @@ data-wf-page-link-href-prefix
                       >
                         <div class="spa-thumbnail">
                           <img
-                            src="images/62f0e256295fa10e03d5bf6c_face-scrab.png"
+                            src="imgs/coconut.png"
                             loading="lazy"
                             alt="Face Scrub"
                             class="spa-thumbnail-image"
@@ -971,7 +985,7 @@ data-wf-page-link-href-prefix
                             href="/spa/face-scrub"
                             class="spa-title-link-block w-inline-block"
                           >
-                            <h3 class="spa-title">Oil massage</h3>
+                            <h3 class="spa-title">Thai Massage</h3>
                           </a>
                           <div class="spa-price-block">
                             <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
@@ -989,7 +1003,7 @@ data-wf-page-link-href-prefix
                       >
                         <div class="spa-thumbnail">
                           <img
-                            src="images/62f0e256295fa10e03d5bf6c_face-scrab.png"
+                            src="imgs/thai.png"
                             loading="lazy"
                             alt="Face Scrub"
                             class="spa-thumbnail-image"
@@ -1000,7 +1014,8 @@ data-wf-page-link-href-prefix
                             href="/spa/face-scrub"
                             class="spa-title-link-block w-inline-block"
                           >
-                            <h3 class="spa-title">Oil massage</h3>
+                            <h3 class="spa-title">Thai Oil massage
+                            </h3>
                           </a>
                           <div class="spa-price-block">
                             <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
@@ -1010,6 +1025,65 @@ data-wf-page-link-href-prefix
                       </div>
                     </div>
 
+                    <div role="listitem" class="spa-item w-dyn-item">
+                      <div
+                        data-w-id="96bde7cd-8c12-aecc-258e-2c5a97be7eb3"
+                        style="opacity: 0"
+                        class="single-spa"
+                      >
+                        <div class="spa-thumbnail">
+                          <img
+                            src="imgs/back_neck.png"
+                            loading="lazy"
+                            alt="Face Scrub"
+                            class="spa-thumbnail-image"
+                          />
+                        </div>
+                        <div class="spa-content">
+                          <a
+                            href="/spa/face-scrub"
+                            class="spa-title-link-block w-inline-block"
+                          >
+                            <h3 class="spa-title">Neck and shoulder massage
+                            </h3>
+                          </a>
+                          <div class="spa-price-block">
+                            <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div role="listitem" class="spa-item w-dyn-item">
+                      <div
+                        data-w-id="96bde7cd-8c12-aecc-258e-2c5a97be7eb3"
+                        style="opacity: 0"
+                        class="single-spa"
+                      >
+                        <div class="spa-thumbnail">
+                          <img
+                            src="imgs/back_shoulder.png"
+                            loading="lazy"
+                            alt="Face Scrub"
+                            class="spa-thumbnail-image"
+                          />
+                        </div>
+                        <div class="spa-content">
+                          <a
+                            href="/spa/face-scrub"
+                            class="spa-title-link-block w-inline-block"
+                          >
+                            <h3 class="spa-title">Back neck and shoulder massage
+                            </h3>
+                          </a>
+                          <div class="spa-price-block">
+                            <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div role="listitem" class="spa-item w-dyn-item">
                       <div
                         data-w-id="96bde7cd-8c12-aecc-258e-2c5a97be7eb3"
@@ -1029,7 +1103,9 @@ data-wf-page-link-href-prefix
                             href="/spa/face-scrub"
                             class="spa-title-link-block w-inline-block"
                           >
-                            <h3 class="spa-title">Oil massage</h3>
+                            <h3 class="spa-title">Body scrub
+
+                            </h3>
                           </a>
                           <div class="spa-price-block">
                             <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
@@ -1038,8 +1114,36 @@ data-wf-page-link-href-prefix
                         </div>
                       </div>
                     </div>
-
                     <div role="listitem" class="spa-item w-dyn-item">
+                      <div
+                        data-w-id="96bde7cd-8c12-aecc-258e-2c5a97be7eb3"
+                        style="opacity: 0"
+                        class="single-spa"
+                      >
+                        <div class="spa-thumbnail">
+                          <img
+                            src="imgs/oil.png"
+                            loading="lazy"
+                            alt="Face Scrub"
+                            class="spa-thumbnail-image"
+                          />
+                        </div>
+                        <div class="spa-content">
+                          <a
+                            href="/spa/face-scrub"
+                            class="spa-title-link-block w-inline-block"
+                          >
+                            <h3 class="spa-title">Body scrub & Aroma oil massage
+                            </h3>
+                          </a>
+                          <div class="spa-price-block">
+                            <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div role="listitem" class="spa-item w-dyn-item">
                       <div
                         data-w-id="96bde7cd-8c12-aecc-258e-2c5a97be7eb3"
                         style="opacity: 0"
@@ -1058,7 +1162,8 @@ data-wf-page-link-href-prefix
                             href="/spa/face-scrub"
                             class="spa-title-link-block w-inline-block"
                           >
-                            <h3 class="spa-title">Oil massage</h3>
+                            <h3 class="spa-title">Alovera massage Aromatherapy massage
+                            </h3>
                           </a>
                           <div class="spa-price-block">
                             <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
@@ -1066,7 +1171,7 @@ data-wf-page-link-href-prefix
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
 
                     <div role="listitem" class="spa-item w-dyn-item">
                       <div
@@ -1076,7 +1181,7 @@ data-wf-page-link-href-prefix
                       >
                         <div class="spa-thumbnail">
                           <img
-                            src="images/62f0e237af610515d4980f20_oil-message.png"
+                            src="imgs/coconut.png"
                             loading="lazy"
                             alt="Oil Massage"
                             class="spa-thumbnail-image"
@@ -1086,8 +1191,13 @@ data-wf-page-link-href-prefix
                           <a
                             href="/spa/oil-massage"
                             class="spa-title-link-block w-inline-block">
-                            <h3 class="spa-title">Oil Massage</h3>
+                            <h3 class="spa-title">Coconut oil massage
+                            </h3>
                           </a>
+                          <div class="spa-price-block">
+                            <a href="./pages/services.html" style="margin-top: 20px;" class="button-primary w-button">Learn More</a>
+                            
+                          </div>
                           </div>
                         </div>
                       </div>
@@ -1103,7 +1213,7 @@ data-wf-page-link-href-prefix
         <div class="container w-container">
           <div class="section-title center-title">
             <div class="title-top-block">
-              <h4 class="section-category-title">Our Pricing</h4>
+              <h4 class="section-category-title font-serif">Our Pricing</h4>
             </div>
             <div class="title-block">
               <h2
@@ -1133,72 +1243,72 @@ data-wf-page-link-href-prefix
                 />
                 <h3 class="priing-title">Pricing Menu<h4>(60mins/90mins/120mins)</h4></h3>
               </div>
-              <div class="spa-service-price-collection w-dyn-list">
-                <div role="list" class="spa-service-price-list w-dyn-items">
+              <div class="spa-service-price-collection w-dyn-list flex flex-start">
+                <div role="list" class="spa-service-price-list w-dyn-items flex flex-start">
+                  <div role="listitem" class="spa-service-price-item w-dyn-item flex flex-start">
+                    <div class="single-price flex flex-start w-full">
+                      <h5 class="sarvice-name basis-1/2  mr-[100px]">Foot Massage</h5>
+                      <div class="service-price basis-1/2">฿(250/฿350/-)</div>
+                    </div>
+                  </div>
                   <div role="listitem" class="spa-service-price-item w-dyn-item">
-                    <div class="single-price">
-                      <h5 class="sarvice-name">Foot Massage</h5>
-                      <div class="service-price">฿(250/฿350/-)</div>
+                    <div class="single-price flex flex-start">
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Thai Massage</h5>
+                      <div class="service-price basis-1/2">฿(300/400/500)</div>
                     </div>
                   </div>
                   <div role="listitem" class="spa-service-price-item w-dyn-item">
                     <div class="single-price">
-                      <h5 class="sarvice-name">Thai Massage</h5>
-                      <div class="service-price">฿(300/400/500)</div>
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Thai Oil Massage</h5>
+                      <div class="service-price basis-1/2">฿(400/600/800)</div>
                     </div>
                   </div>
                   <div role="listitem" class="spa-service-price-item w-dyn-item">
                     <div class="single-price">
-                      <h5 class="sarvice-name">Thai Oil Massage</h5>
-                      <div class="service-price">฿(400/600/800)</div>
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Neck and Shoulder Massage</h5>
+                      <div class="service-price basis-1/2">฿(400/600/800)</div>
                     </div>
                   </div>
                   <div role="listitem" class="spa-service-price-item w-dyn-item">
                     <div class="single-price">
-                      <h5 class="sarvice-name">Neck and Shoulder Massage</h5>
-                      <div class="service-price">฿(400/600/800)</div>
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Back Neck and Shoulder Massage</h5>
+                      <div class="service-price basis-1/2">฿(400/600/800)</div>
                     </div>
                   </div>
                   <div role="listitem" class="spa-service-price-item w-dyn-item">
                     <div class="single-price">
-                      <h5 class="sarvice-name">Back Neck and Shoulder Massage</h5>
-                      <div class="service-price">฿(400/600/800)</div>
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Oil Massage</h5>
+                      <div class="service-price basis-1/2">฿(350/500/600)</div>
                     </div>
                   </div>
                   <div role="listitem" class="spa-service-price-item w-dyn-item">
                     <div class="single-price">
-                      <h5 class="sarvice-name">Oil Massage</h5>
-                      <div class="service-price">฿(350/500/600)</div>
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Coconut Oil Massage</h5>
+                      <div class="service-price basis-1/2">฿(500/700/900)</div>
                     </div>
                   </div>
                   <div role="listitem" class="spa-service-price-item w-dyn-item">
                     <div class="single-price">
-                      <h5 class="sarvice-name">Coconut Oil Massage</h5>
-                      <div class="service-price">฿(500/700/900)</div>
-                    </div>
-                  </div>
-                  <div role="listitem" class="spa-service-price-item w-dyn-item">
-                    <div class="single-price">
-                      <h5 class="sarvice-name">Alovera Massage</h5>
-                      <div class="service-price">฿(500/700/900)</div>
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Alovera Massage</h5>
+                      <div class="service-price basis-1/2">฿(500/700/900)</div>
                     </div>
                   </div>
                    <div role="listitem" class="spa-service-price-item w-dyn-item">
                     <div class="single-price">
-                      <h5 class="sarvice-name">Aromatherapy Massage</h5>
-                      <div class="service-price">฿(600/900/1000)</div>
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Aromatherapy Massage</h5>
+                      <div class="service-price basis-1/2">฿(600/900/1000)</div>
                     </div>
                   </div>
                    <div role="listitem" class="spa-service-price-item w-dyn-item">
                     <div class="single-price">
-                      <h5 class="sarvice-name">Body Scrub</h5>
-                      <div class="service-price">฿700/-/-</div>
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Body Scrub</h5>
+                      <div class="service-price basis-1/2">฿700/-</div>
                     </div>
                   </div>
                    <div role="listitem" class="spa-service-price-item w-dyn-item">
                     <div class="single-price">
-                      <h5 class="sarvice-name">Body Scrub and Aroma Oil</h5>
-                      <div class="service-price">฿(-/950/1000)</div>
+                      <h5 class="sarvice-name basis-1/2 mr-[100px]">Body Scrub and Aroma Oil</h5>
+                      <div class="service-price basis-1/2">฿(-/950/1000)</div>
                     </div>
                   </div>
                 </div>
@@ -1310,7 +1420,7 @@ data-wf-page-link-href-prefix
           <div class="testimonial-right">
             <div class="section-title">
               <div class="title-top-block">
-                <h4 class="section-category-title">Testimonials</h4><img
+                <h4 class="section-category-title font-serif">Testimonials</h4><img
                   src="fonts/62ef4b810e99ef5b7afbcfbb_Title%20Design%20Image.svg" loading="lazy"
                   alt="Title Design Image" class="title-design-image">
               </div>
@@ -1388,11 +1498,15 @@ data-wf-page-link-href-prefix
             <a href="#" class="mail-address">+66-918-490-034</a><br>
             <a href="#" class="mail-address">091-849-0034</a>
           </div>
-          <div class="footer-content-block">
+          <div class="footer-content-block flex flex-col md:flex-row">
             <div class="footer-block">
               <div class="footer-title">Quick Link</div>
-              
-              <a href="/services.html" class="footer-link">Services</a>
+              <a href="/" class="footer-link">Home</a>
+              <a href="/pages/services.html" class="footer-link">About</a>
+              <a href="/pages/services.html" class="footer-link">Services</a>
+              <a href="/pages/pricing.html" class="footer-link">Pricing</a>
+              <a href="/pages/contactUs.html" class="footer-link">Conatct Us</a>
+              <a href="/pages/.html" class="footer-link">Experience</a>
             </div>
             <div class="footer-block">
               <div class="footer-title">Information</div>
